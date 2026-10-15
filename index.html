@@ -1,13 +1,148 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello World</title>
-  <link rel="stylesheet" type="text/css" href="styles.css" />
-</head>
-<body>
-  <img src="images/create-octocat.png" id="octocat" alt="Octocat" />
-  <p>Hello World! Welcome to your first GitHub Pages website.</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f6f7fb" />
+    <meta
+      name="description"
+      content="A friendly first step on GitHub Pages. Explore a simple page built with HTML and CSS, then make it your own."
+    />
+    <title>Hello, world. — Your first GitHub Pages site</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <div class="page-shell" id="top">
+      <header class="topbar">
+        <a class="brand" href="#top" aria-label="Hello, world. — Home">
+          <span class="brand-mark" aria-hidden="true">
+            <img src="images/create-octocat.png" alt="" width="36" height="36" />
+          </span>
+          <span class="brand-name">hello<span>/</span>world</span>
+        </a>
+
+        <p class="topbar-note">
+          <span class="status-dot" aria-hidden="true"></span>
+          A first GitHub Pages site
+        </p>
+
+        <a
+          class="topbar-link"
+          href="https://github.com/OfferPk/hello-world"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View source <span aria-hidden="true">↗</span>
+        </a>
+      </header>
+
+      <main id="main">
+        <section class="hero" aria-labelledby="hero-title">
+          <div class="hero-copy">
+            <p class="eyebrow"><span aria-hidden="true"></span>Your first page starts here</p>
+            <h1 id="hero-title">Hello,<br /><span>world.</span></h1>
+            <p class="hero-description">
+              Welcome to your first GitHub Pages website. A simple page is a lovely place to
+              start—now make it yours.
+            </p>
+
+            <div class="hero-actions">
+              <a class="button button-primary" href="#next">
+                Take a look around
+                <svg aria-hidden="true" viewBox="0 0 20 20" fill="none">
+                  <path d="M4 10h11M10 5l5 5-5 5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </a>
+              <a
+                class="button button-quiet"
+                href="https://github.com/OfferPk/hello-world#quick-start"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Read the quick start <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+
+            <p class="hero-footnote">
+              <span aria-hidden="true">✦</span>
+              Static HTML and CSS. No build step required.
+            </p>
+          </div>
+
+          <div class="hero-visual">
+            <div class="visual-orbit orbit-one" aria-hidden="true"></div>
+            <div class="visual-orbit orbit-two" aria-hidden="true"></div>
+            <span class="sparkle sparkle-one" aria-hidden="true">✦</span>
+            <span class="sparkle sparkle-two" aria-hidden="true">✳</span>
+
+            <figure class="art-card">
+              <div class="art-card-top">
+                <span class="art-label">A LITTLE PAGE, A BIG BEGINNING</span>
+                <span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span>
+              </div>
+              <div class="art-image-wrap">
+                <img
+                  class="octocat-art"
+                  src="images/create-octocat.png"
+                  alt="GitHub's Octocat mascot, ready to welcome you."
+                  width="384"
+                  height="384"
+                />
+              </div>
+              <figcaption class="art-caption">
+                <span class="caption-spark" aria-hidden="true">✦</span>
+                <span class="caption-copy">
+                  <strong>One page. Endless possibility.</strong>
+                  <span>Your corner of the web.</span>
+                </span>
+                <span class="caption-arrow" aria-hidden="true">↗</span>
+              </figcaption>
+            </figure>
+
+            <div class="ready-sticker">
+              <span class="sticker-check" aria-hidden="true">✓</span>
+              <span>READY TO<br />PERSONALIZE</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="next-section" id="next" aria-labelledby="next-title">
+          <div class="section-intro">
+            <p class="eyebrow"><span aria-hidden="true"></span>A good place to begin</p>
+            <h2 id="next-title">Small steps.<br /><span>Big things ahead.</span></h2>
+            <p>
+              Everything on this page is made with familiar building blocks. Explore,
+              experiment, and enjoy the process.
+            </p>
+          </div>
+
+          <div class="starter-cards">
+            <article class="starter-card">
+              <div class="card-topline"><span>01</span><span class="card-symbol html-symbol" aria-hidden="true">&lt;/&gt;</span></div>
+              <h3>Shape the page</h3>
+              <p>Start in <code>index.html</code> and make the words your own.</p>
+            </article>
+            <article class="starter-card">
+              <div class="card-topline"><span>02</span><span class="card-symbol style-symbol" aria-hidden="true">✳</span></div>
+              <h3>Find your style</h3>
+              <p>Open <code>styles.css</code> and try a new color, typeface, or layout.</p>
+            </article>
+            <article class="starter-card">
+              <div class="card-topline"><span>03</span><span class="card-symbol web-symbol" aria-hidden="true">↗</span></div>
+              <h3>Share it when ready</h3>
+              <p>GitHub Pages can turn your little project into a page for everyone.</p>
+            </article>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <a class="footer-brand" href="#top">hello<span>/</span>world</a>
+        <p>Made with curiosity and a couple of simple files.</p>
+        <a class="back-to-top" href="#top">Back to top <span aria-hidden="true">↑</span></a>
+      </footer>
+    </div>
+  </body>
 </html>
